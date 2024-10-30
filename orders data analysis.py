@@ -1,17 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[76]:
 
 
-#import libraries
-#!pip install kaggle
-import kaggle
-
-!kaggle datasets download ankitbansal06/retail-orders -f orders.csv
 
 
-# In[77]:
 
 
 #extract file from zip file
@@ -21,7 +11,7 @@ zip_ref.extractall() # extract file to dir
 zip_ref.close() # close file
 
 
-# In[145]:
+
 
 
 #read data from the file and handle null values
