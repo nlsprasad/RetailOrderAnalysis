@@ -45,13 +45,12 @@ The goal of this project is to analyze a dataset containing retail order informa
 ## Data Preprocessing
 
 The data preprocessing script `data_preprocessing.py`:
-1. Downloads the dataset from Kaggle.
-2. Extracts the file from a compressed zip format.
-3. Loads the data using pandas and handles null values.
-4. Renames columns for consistency.
-5. Calculates new columns for discount, sale price, and profit.
-6. Converts the order date to a datetime format.
-7. Loads the cleaned data into a SQL Server table.
+1. Extracts the file from a compressed zip format.
+2. Loads the data using pandas and handles null values.
+3. Renames columns for consistency.
+4. Calculates new columns for discount, sale price, and profit.
+5. Converts the order date to a datetime format.
+6. Loads the cleaned data into a SQL Server table.
 
 ## SQL Queries for Analysis
 
